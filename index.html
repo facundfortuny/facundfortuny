@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Facund Fortuny</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- @todo: fill with your company info or remove -->
+    <meta name="description" content="Facund Fortuny Pons, Software and Web developer">
+    <meta name="author" content="Facund Fortuny Pons">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Plugins -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="plugins/flexslider/flexslider.css" rel="stylesheet">
+
+    <!-- Theme style -->
+    <link href="css/theme-style.css" rel="stylesheet">
+
+    <!--Your custom colour override - a starter template/example for overriding theme colours -->
+    <link href="css/alternative-colour.css" rel="stylesheet">
+
+    <!-- Put all your custom code/overrides here -->
+    <link href="css/custom-style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons - @todo: fill with your icons or remove -->
+    <link rel="shortcut icon" href="img/icons/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/default.png">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+
+    <!--Retina.js plugin - @see: http://retinajs.com/-->
+    <script src="plugins/retina/retina.js"></script>
+
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-42936927-1', 'facundfortuny.com');
+	  ga('send', 'pageview');
+
+	</script>
+  </head>
+
+  <body class="has-navbar-fixed-top page-index">
+
+    <!-- @region: Navigation -->
+    <div id="navigation" class="wrapper">
+      <!-- Branding & Navigation -->
+              <!--Main Navigation-->
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+
+              <!--branding-->
+              <div class="brand">
+                <!-- Logo added with CSS -->
+                <h1><a href="#content">Curr<span class="em">i</span></a></h1>
+              </div>
+
+              <!--mobile collapse menu button-->
+              <a class="mobile-toggle-trigger"><i class="icon-reorder"></i></a>
+
+              <!--scroll mobile navigation-->
+              <a class="mobile-toggle-trigger scroll-nav" data-js="scroll-show"><i class="icon-reorder"></i></a>
+
+              <!--everything within this div is collapsed on mobile-->
+              <div class="mobile-toggle pull-right">
+
+                <!--main navigation-->
+                <ul class="nav" id="main-menu">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#work">Work</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#contact" class="stamp">Hire me</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- @region: Content -->
+    <!--scroll-section class must be added to all scrollable sections-->
+    <div id="content">
+      <section class="scroll-section about block primary" id="about">
+	<!-- About text & photo -->
+	<div class="container">
+	  <div class="row-fluid">
+	    <div class="span3 photo">
+	      <img src="img/misc/profile.png" alt="My picture" class="img-circle pull-center" />
+	    </div>
+	    <div class="span9 details">
+	      <h2 class="primary-focus">Facund Fortuny</h2>
+	      <h3 class="secondary-focus">Software and Web developer.</h3>
+	      <p>Hi there. I am a Software and Web developer and IT Consultant living in East Malling, Kent. I was born and raised in Alaior, Menorca and I moved to Barcelona to study Computer Engineering and a post-grade in Service Management and Engineering (UPC School of Professional & Executive Development). I spend one year as an exchange student in an international and intercultural environment doing my Bachelor thesis in the NTNU in Norway. My hobbies are basketball, Ski, Hiking and Cooking.</p>
+	      <div class="margin-top"><a href="#services" class="btn btn-large btn-primary-grad">Find Out More <i class="icon-angle-down"></i></a></div>
+	    </div>
+	  </div>
+	</div>
+      </section>
+
+      <!-- Clients carousel -->
+      <div class="clients block">
+	<div class="container">
+	  <div class="row-fluid">
+	    <!--You must set data-item-width="250" data-item-margin="70" on the flexslider-carousel div
+	    data-item-width = width of each item
+	    data-item-margin = horizontal margins on items, relates to your css ie. margin: 0 35px; results in data-item-margin="70" (x2 the horizontal margin)-->
+	    <!--
+	    <div class="flexslider-carousel" data-item-width="250" data-item-margin="0">
+
+	      <div class="items">
+	      		<div class="item"><img src="img/clients/client1.png" alt="Client 1 image" /></div>
+	      		<div class="item"><img src="img/clients/client2.png" alt="Client 2 image" /></div>
+	      		<div class="item"><img src="img/clients/client3.png" alt="Client 3 image" /></div>
+	      		<div class="item"><img src="img/clients/client4.png" alt="Client 4 image" /></div>
+	      		<div class="item"><img src="img/clients/client5.png" alt="Client 5 image" /></div>
+	      		<div class="item"><img src="img/clients/client6.png" alt="Client 6 image" /></div>
+	      	      		<div class="item"><img src="img/clients/client1.png" alt="Client 1 image" /></div>
+	      		<div class="item"><img src="img/clients/client2.png" alt="Client 2 image" /></div>
+	      		<div class="item"><img src="img/clients/client3.png" alt="Client 3 image" /></div>
+	      		<div class="item"><img src="img/clients/client4.png" alt="Client 4 image" /></div>
+	      		<div class="item"><img src="img/clients/client5.png" alt="Client 5 image" /></div>
+	      		<div class="item"><img src="img/clients/client6.png" alt="Client 6 image" /></div>
+
+	      </div>
+	    </div>
+		-->
+	  </div>
+	</div>
+      </div>
+
+      <!--Work-->
+      <section class="scroll-section work block" id="work">
+	<div class="container">
+	  <h2>Work</h2>
+	  <!--Featured item-->
+	  <section class="flexslider-wrapper container">
+	    <div class="flexslider" id="full-view" data-slidernav="#work-items" data-transition="slide" data-autostartoff=true>
+	      <div class="slides">
+          <div class="slide row-fluid" data-thumb="img/showcase/thumbs/truekkea.jpg">
+            <div class="span8"><img src="img/showcase/full/truekkea.jpg" alt="Truekkea" /></div>
+            <div class="span4">
+              <h3 class="title">Truekkea</h3>
+              <p>Web application where you can exchange products.</p>
+              <a href="http://www.truekkea.com/" class="btn btn-primary">View Online <i class="icon-globe"></i></a>
+            </div>
+          </div>
+
+          <div class="slide row-fluid" data-thumb="img/showcase/thumbs/singulars.jpg">
+    		    <div class="span8"><img src="img/showcase/full/singulars.jpg" alt="Singulårs" /></div>
+    		    <div class="span4">
+    		      <h3 class="title">Singulårs</h3>
+    		      <p>Biannual conferences of singular people from Alaior sharing their knowledge and values.</p>
+    		      <a href="http://www.losingulars.com" class="btn btn-primary">View Online <i class="icon-globe"></i></a>
+    		    </div>
+    		  </div>
+
+          <div class="slide row-fluid" data-thumb="img/showcase/thumbs/mariaweb.jpg">
+            <div class="span8"><img src="img/showcase/full/mariaweb.jpg" alt="María Perez" /></div>
+            <div class="span4">
+              <h3 class="title">Psychologist María Perez</h3>
+              <p>Psychologist María Perez personal website</p>
+              <a href="http://pereznarciso.com/" class="btn btn-primary">View Online <i class="icon-globe"></i></a>
+            </div>
+          </div>
+
+    		  <div class="slide row-fluid" data-thumb="img/showcase/thumbs/caminsong.jpg">
+    		    <div class="span8"><img src="img/showcase/full/caminsong.jpg" alt="Camins ONG" /></div>
+    		    <div class="span4">
+    		      <h3 class="title">CaminsONG</h3>
+    		      <p>Camins ONG website</p>
+    		      <a href="http://caminsong.com/" class="btn btn-primary">View Online <i class="icon-globe"></i></a>
+    		    </div>
+    		  </div>
+
+		   </div>
+	    </div>
+
+	    <!--Projects pager-->
+	    <ul class="items" id="work-items">
+          <li class="item pull-center">
+            <a href="img/showcase/full/truekkea.jpg">
+              <img src="img/showcase/thumbs/truekkea.jpg" alt="Truekkea" title="Click to view details" />
+            </a>
+          <li>
+
+	      	<li class="item pull-center">
+    				<a href="img/showcase/full/singulars.jpg">
+    				  <img src="img/showcase/thumbs/singulars.jpg" alt="Singulårs" title="Click to view details" />
+    				</a>
+	      	</li>
+
+	      	<li class="item pull-center">
+        		<a href="img/showcase/full/mariaweb.jpg">
+        		  <img src="img/showcase/thumbs/mariaweb.jpg" alt="María Perez" title="Click to view details" />
+        		</a>
+        	<li>
+
+          <li class="item pull-center">
+            <a href="img/showcase/full/caminsong.jpg">
+              <img src="img/showcase/thumbs/caminsong.jpg" alt="Camins ONG" title="Click to view details" />
+            </a>
+          </li>
+	    </ul>
+	  </section>
+	</div>
+</section>
+
+      <!-- Skills & Services -->
+      <section class="scroll-section services block gray" id="services">
+	<div class="container">
+	  <h2>Services</h2>
+	  <div class="row-fluid">
+	    <div class="span4 service">
+	      <i class="service-html5 centered"></i>
+	      <h3 class="bold">WEB Development</h3>
+	      <!--<p>Nascetur sed elit, hac nec pellentesque porta etiam vel <a href="#">platea integer risus</a>. Nec eu porta odio sit nec. Placerat etiam porttitor vel et pulvinar. Nunc! Facilisis, cum et amet cras.</p>-->
+	    </div>
+	    <div class="span4 service">
+	      <i class="service-backend centered"></i>
+	      <h3 class="bold">Backend Development</h3>
+	      <!--<p>Nascetur sed elit, hac nec pellentesque porta etiam vel platea integer risus. Nec eu porta odio sit nec. Placerat etiam porttitor vel et pulvinar. Nunc! Facilisis, cum et amet cras.</p>-->
+	    </div>
+	    <div class="span4 service">
+	      <i class="service-pm centered"></i>
+	      <h3 class="bold">IT Consultant</h3>
+	      <!--<p>Nascetur sed elit, hac nec pellentesque porta etiam vel platea integer risus. Nec eu porta odio sit nec. Placerat etiam porttitor vel et pulvinar. Nunc! Facilisis, cum et amet cras.</p>-->
+	    </div>
+	  </div>
+	</div>
+      </section>
+
+      <!-- Experience Timeline -->
+      <section class="scroll-section experience block" id="experience">
+	<div class="container">
+	  <h2>Experience</h2>
+
+	  <!--
+	  The Timeline:
+	  - Timeline can be stacked by default by adding .timeline-stacked class to <ul class="timeline">, markers can show downloads by adding .down to <ul class="timeline">
+	  - Item overlapping can be reset using the .overlap-off class or pulled using the overlap-pull-small & overlap-pull-large or pulled using overlap-push-small & overlap-push-large, default overlap is 60px
+	  - To highlight the marker of an item add the class highlight to the timeline-item elements
+	  -->
+	  <ul class="timeline">
+	    <!--Year 1 - 2013-->
+	    <li>
+	      <h3 class="timeline-breaker">Now</h3>
+	      <ul>
+          <li class="timeline-item highlight">
+            <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+            <img src="img/timeline/truekkealogo.png" class="timeline-item-photo right" alt="timeline photo" />
+
+            <h4 class="timeline-item-date">Setember 2013 - Present</h4>
+            <h5 class="timeline-item-role">Full Stack Web Developer, Truekkea</h5>
+            <p class="timeline-item-description">I’m collaborating on the creation of the new startup Truekkea, I’m one of the responsible of the creation of the web site and I will be part of the team on charge for the maintenance and new developments. We are developing it with Ruby on Rails, Bootstrap, Slim and Compass.</p>
+          </li>
+
+    			<li class="timeline-item right highlight">
+    			  <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+    			  <img src="img/timeline/singulars.png" class="timeline-item-photo right" alt="timeline photo" />
+
+    			  <h4 class="timeline-item-date">December 2012 - Present</h4>
+    			  <h5 class="timeline-item-role">Co-Organizer, Singulårs</h5>
+    			  <p class="timeline-item-description">I'm co-organizer of annual conferences, Singulårs. We are organizing annual conference where singular people from Alaior, Menorca share their knowledge and values. I also responsible of the Technical resources of this project and I’ve developed the web site in HTML5. </p>
+    			</li>
+
+	      </ul>
+	    </li>
+
+	    <!--Year 2 - 2012-->
+	    <li>
+	      <h3 class="timeline-breaker">2009 -2014</h3>
+	      <ul>
+          <li class="timeline-item">
+            <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+            <img src="img/timeline/qad.png" class="timeline-item-photo img-bg-primary" alt="timeline photo" />
+            <h4 class="timeline-item-date">February 2012 - August 2014</h4>
+            <h5 class="timeline-item-role">Software Engineer Associate @ QAD Europe </h5>
+            <p class="timeline-item-description">Software engineer associate in the department of EDI World Services at QAD, who provides Enterprise Resource Planning software to manufacturing companies around the world. I was part of the Bank Drivers Team, collaborating with several multinational companies, working in multicultural environments and engaged in global projects. Providing software solutions, that allow the companies to send and receive electronic data information with the bank with a complete integrating to cash management, treasury system (ERP) using standard formats as SEPA, BACS, ACH, SWIFT MT940. Working in the language PROGRESS 4GL.</p>
+          </li>
+          <li class="timeline-item right">
+            <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+            <img src="img/timeline/marialogo.png" class="timeline-item-photo right img-bg-primary" alt="timeline photo" />
+            <h4 class="timeline-item-date">March 2014 - March 2014</h4>
+            <h5 class="timeline-item-role">Web Developer @ Psychologist María Perez</h5>
+            <p class="timeline-item-description">I developed Psychologist María Perez's web. For this development I have used HTML5, Bootstrap, CSS3 and PHP.</p>
+          </li>
+          <li class="timeline-item">
+            <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+            <img src="img/timeline/caminsong.png" class="timeline-item-photo img-bg-primary" alt="timeline photo" />
+            <h4 class="timeline-item-date">November 2012 - November 2012</h4>
+            <h5 class="timeline-item-role">Web Developer @ CaminsONG</h5>
+            <p class="timeline-item-description">I developed the ONG Camins web. For this development I have used HTML5, Bootstrap, CSS3 and PHP.</p>
+          </li>
+
+	      	<li class="timeline-item right">
+    			  <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+    			  <img src="img/timeline/roche.png" class="timeline-item-photo right img-bg-primary-light" alt="timeline photo" />
+    			  <h4 class="timeline-item-date">July 2011 - December 2011</h4>
+    			  <h5 class="timeline-item-role">Internship @ Roche Diagnostics</h5>
+    			  <p class="timeline-item-description">Web application developer (CACHE Intersystems, HTML, JavaScript, CSS). Developing OMEGA 4 (Lab software) a web application built in CACHE. Using software development methodologies (SCRUM)</p>
+    			</li>
+    			<li class="timeline-item">
+    			  <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+    			  <img src="img/timeline/ntnu.png" class="timeline-item-photo img-bg-primary" alt="timeline photo" />
+    			  <h4 class="timeline-item-date">August 2010 - December 2010</h4>
+    			  <h5 class="timeline-item-role">Final Thesis @ SINTEF (NTNU) </h5>
+    			  <p class="timeline-item-description">Developing simulation program / framework that will support people in learning how to properly use a ultrasound probe. First, the simulator should be able to take as input medical images and render them into a 3D model. Then, using the special haptic device, the user should be able to touch and feel the 3D model and should be able to see the proper CT scan image and the corresponding ultrasound image.
+    			  Using software development methodologies (SCRUM).
+    			  </p>
+    			</li>
+    	  		<li class="timeline-item right">
+    			  <!--Images require class="timeline-item-photo", to float right add right class="timeline-item-photo right"-->
+    			  <img src="img/timeline/esade.png" class="timeline-item-photo right img-bg-primary" alt="timeline photo" />
+    			  <h4 class="timeline-item-date">August 2009 - July 2010</h4>
+    			  <h5 class="timeline-item-role">Internship @ ESADE</h5>
+    			  <p class="timeline-item-description">Web applications developer Developing webs to help the enrollment of the new students (J2EE, Struts, Hibernate, HTML, CSS). A web application to send newsletters (PLSQL).</p>
+    			</li>
+
+	      </ul>
+	    </li>
+
+	    <!--Timeline end block-->
+	    <li class="timeline-end">
+	      <h5 class="timeline-breaker">Want to know more?</h5>
+	      <a href="#contact" class="btn btn-large btn-primary-light btn-square"><i class="icon-envelope"></i> Contact Me</a> <a href="pdf/FacundFortuny.pdf" class="btn btn-large btn-primary btn-square"><i class="icon-download-alt"></i> Download CV</a>
+	    </li>
+	  </ul>
+	</div>
+      </section>
+
+      <!--Customer testimonial -->
+    <section class="testimonials" id="testimonials">
+
+	<div class="block thin gray">
+	  <div class="flexslider-wrapper container">
+	    <div class="flexslider" data-transition="fade" data-directionnav=false>
+	      <div class="slides">
+		<blockquote class="slide">
+		  <p>
+		    Do what you love, and do it often.
+		    <small>Holstee Manifesto</small>
+		  </p>
+		</blockquote>
+	<!--
+		<blockquote class="slide">
+		  <p>
+		    Great job, delivered on time & on budget!
+		    <small>Mike Rogers</small>
+		  </p>
+		</blockquote>
+	-->
+		<blockquote class="slide">
+		  <p>
+		    Live your dream. And wear your passion.
+		    <small>Holstee Manifesto</small>
+		  </p>
+		</blockquote>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </section>
+
+      <!--Contact form-->
+      <section class="scroll-section contact block" id="contact">
+		<div class="container">
+		  <h2>Hire Me</h2>
+		  <div class="row-fluid">
+		    <form id="contact-form" action="sendmail.php" method="post">
+		      <div class="span5">
+				<input type="text" placeholder="Name" class="input-primary" name='name'>
+				<input type="email" placeholder="Email" class="input-primary" name="email">
+		      </div>
+		      <div class="span7">
+			  	<textarea rows="4" placeholder="Message" name='message'></textarea>
+		      </div>
+		      <button type="submit" value="Send" class="btn btn-large btn-primary-light btn-square" ><i class="icon-envelope"></i> Send Message</button>
+		    </form>
+		  </div>
+		</div>
+      </section>
+
+    </div>
+
+    <!-- @region: Footer -->
+    <footer id="footer">
+        <div class="container">
+          <div class="row-fluid pull-center">
+            <div class="social-media">
+              <a href="https://twitter.com/tuareg05"><i class="icomoon-twitter-3"></i></a>
+              <a href="https://github.com/facundfortuny"><i class="icomoon-github"></i></a>
+              <a href="http://www.linkedin.com/in/facundfortuny"><i class="icomoon-linkedin"></i></a>
+            </div>
+
+            <!--@todo: replace with company copyright details-->
+            <p>Copyright 2013 &copy; <a href="http://facundfortuny.com">Facund Fortuny</a></p>
+          </div>
+        </div>    </footer>
+
+    <!--Scripts -->
+    <script src="js/jquery.js"></script>
+
+    <!--Bootstrap Javascript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Plugins -->
+    <script src="plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script src="plugins/jPanelMenu/jquery.jpanelmenu.min.js"></script>
+    <script src="plugins/jRespond/js/jRespond.js"></script>
+    <script src="plugins/onePageNav/jquery.scrollTo.js"></script>
+    <script src="plugins/onePageNav/jquery.nav.js"></script>
+
+    <!--Custom scripts mainly used to trigger libraries -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
