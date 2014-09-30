@@ -114,31 +114,6 @@ $(document).ready(function() {
         }
     });
   }
-
-  //flexslider carousels
-  $('.flexslider-carousel').each(function() {
-    var carouselSettings =  {
-      animation: $(this).data('transition') || "slide",
-      animationLoop: false,
-      selector: ".items > .item",
-      itemWidth: $(this).data('item-width'),
-      itemMargin: $(this).data('item-margin'),
-      move: 1,
-      controlNav: typeof $(this).data('item-controls-on') !== 'undefined' ? true : false,
-      slideshow: false,
-      minItems: $(this).data('min-items') || 1,
-      maxItems: $(this).data('max-items') || 5
-    };
-    
-    var navFor = $(this).data('navfor');
-    if (navFor !== '') {
-      carouselSettings = $.extend({}, carouselSettings, {
-        asNavFor: '#'+ navFor
-      });
-    }
-    
-    $(this).flexslider(carouselSettings);
-  });
   
   //flexslider
   $('.flexslider').each(function(i) {
